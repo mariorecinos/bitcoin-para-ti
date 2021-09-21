@@ -22,7 +22,6 @@ function handleGetData(event) {
   // setting up input variable
   const $cryptoName = $cryinput.val();
   const $fiatName = $fiatinput.val();
-  console.log($fiatName);
   // this method is used to keep the input blank after input entered
   $cryinput.val("");
   $fiatinput.val("");
