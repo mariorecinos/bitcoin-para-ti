@@ -30,7 +30,6 @@ function handleGetData(event) {
   $.ajax(`${BASE_URL}${$cryptoName}-${$fiatName}/spot?`).then(function (data) {
     // referencing data in parameter of function line 28
     cryptoData = data;
-    console.log($fiatName);
 
     // if successful then render function is called
     render ();
