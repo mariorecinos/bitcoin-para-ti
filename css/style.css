@@ -2,6 +2,7 @@ body {
   background-image: url(https://images-ext-1.discordapp.net/external/JyMQFfSBY3xhRfsKhpS6kTBpUZaQCEtMCgUeyGKE-vo/%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D2%26h%3D750%26w%3D1260/https/images.pexels.com/photos/5980738/pexels-photo-5980738.jpeg?width=990&height=660);
   background-size: cover;
   color: white;
+  font-family: 'Rubik', sans-serif;
 }
 
 #contdiv {
@@ -9,9 +10,12 @@ body {
 }
 
 
-
+input {
+  margin: 4px;
+}
 
 
 h1 {
-  font-size: 60px;
+  font-size: 80px;
+  font-family: 'Rubik', sans-serif;
 }
