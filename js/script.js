@@ -34,7 +34,7 @@ function handleGetData(event) {
     render ();
     // if an error than will console.log error
   }, function (error) {
-    console.log(error);
+    alert("Error please enter a valid currency");
   });
 
   }
