@@ -1,19 +1,17 @@
-* {
-  box-sizing: border-box
+body {
+  background-image: url(https://images-ext-1.discordapp.net/external/JyMQFfSBY3xhRfsKhpS6kTBpUZaQCEtMCgUeyGKE-vo/%3Fauto%3Dcompress%26cs%3Dtinysrgb%26dpr%3D2%26h%3D750%26w%3D1260/https/images.pexels.com/photos/5980738/pexels-photo-5980738.jpeg?width=990&height=660);
+  background-size: cover;
+  color: white;
 }
 
-*,
-*:before,
-*:after {
-  box-sizing: inherit;
+#contdiv {
+  background-color: #1B1A22;
 }
 
-.container {
-  width: 97%;
-  max-width: 1200px;
-  background-color: #f8f6f0;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: auto
+
+
+
+
+h1 {
+  font-size: 60px;
 }
