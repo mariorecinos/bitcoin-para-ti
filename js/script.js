@@ -31,7 +31,7 @@ $(function () {
 
       // if successful then render function is called
       render();
-      // if an error than will console.log error
+      // if an error than will alert error
     }, function (error) {
       alert("Error please enter a valid currency");
     });
