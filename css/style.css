@@ -3,13 +3,17 @@ body {
   background-size: cover;
   color: white;
   font-family: 'Rubik', sans-serif;
+  background-repeat:no-repeat;
+  background-position:center;
 }
 
 #contdiv {
   background-color: #1B1A22;
 }
 
-
+h1{
+font-size: 5rem;
+}
 input {
   margin: 4px;
 }
@@ -18,4 +22,8 @@ input {
 h1 {
   font-size: 80px;
   font-family: 'Rubik', sans-serif;
+}
+
+footer {
+color: black!
 }

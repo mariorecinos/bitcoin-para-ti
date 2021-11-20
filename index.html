@@ -26,19 +26,25 @@
   <title>Bitcoin Para Ti</title>
 </head>
 
-<body>
-  <header class="jumbotron jumbotron-fluid">
-    <div class="container">
+<body class="d-flex flex-column min-vh-100">
+  <header class="jumbotron jumbotron-fluid container d-flex flex-row justify-content-center">
+    <div class=" d-flex flex-row justify-content-center">
       <div class="row row-content">
-        <div class="col-4"></div>
-        <div class="col-4">
-          <h1>Bitcoin Para Ti<img id="gif" src="https://thumbs.gfycat.com/IllSharpCod-max-1mb.gif" height="80"
-              width="80" /></h1>
+        <div class="col col-2"></div>
+        <div class="col-10">
+          <h1 id="bitpati">Bitcoin  </h1>
         </div>
-        <div class="col-4"></div>
+        <div class="container d-flex flex-row justify-content-center">
+        <div class="col"></div></div>
+        <div class="row row-content">
+        <div class="col col-2"></div>
+        <div class="col-8">
+          <h1 id="bitpati">Para Ti<img id="gif" src="https://thumbs.gfycat.com/IllSharpCod-max-1mb.gif" height="80" width="80" /> </h1>
+        </div>
+        <div class="col"></div></div>
+        </div>
 
-      </div>
-    </div>
+</div>
 
   </header>
   <div class="container">
@@ -49,19 +55,27 @@
         <p>Price For:</p>
         <p id="crypto"></p>
         <p>Current Price</p>
+        <form>
         <p id="current"></p>
         <p>Fiat Currency:</p>
         <p id="fiat"></p>
-        <form>
-          <input id="csymb" type="text" placeholder="Crypto Symbol ex: BTC" />
-          <input id="fsymb" type="text" placeholder="Fiat Symbol ex: USD" />
-          <input type="submit" class="btn btn-outline-warning " value="Get Current Price" />
-
+        <div class="container">
+        <input class="form-control" id="csymb" type="text" placeholder="Crypto Symbol ex: BTC" />
+        <input class="form-control" id="fsymb" type="text" placeholder="Fiat Symbol ex: USD" />
+        <input type="submit" class="btn btn-outline-warning " value="Get Current Price" />
+        </div>
         </form>
+
+
       </div>
-      <div class="col-2"></div>
+        <div class="col-2"></div>
+      </div>
     </div>
+    <footer class="footer mt-auto py-3 bg-warning">
+  <div class="container text-center">
+    <span class="text-dark">Bitcon Para Ti <script>document.write( new Date().getFullYear() );</script></span>
   </div>
+</footer>
 </body>
 
 </html>
