@@ -19,7 +19,7 @@ A simple web application that displays cryptocurrency prices in different fiat c
 
 # Getting Started:
 
-[Click Here](https://zen-williams-7425c0.netlify.app/) to see the deployed app!
+[Click Here](https://bitconparati.netlify.app/) to see the deployed app!
 
 # Future Enhancements
 
