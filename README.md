@@ -11,6 +11,7 @@ A simple web application that displays cryptocurrency prices in different fiat c
 * Javascript
 * jQuery
 * Coinbase API
+*New Changes
 
 
 # Screenshot:
